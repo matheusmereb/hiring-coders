@@ -154,3 +154,40 @@ switch (mes) {
         console.log("nenhum dos casos acima atendido");
 } */
 
+
+// --> ESTRUTURAS DE REPETIÇÃO
+
+// FOR
+/* var colors = ["black", "white", "yellow", "green", "blue"];
+
+for (var i = 0; i < colors.length; i++) {
+    console.log(colors[i]);
+} */
+
+/* for (var i = 0; i <= 10; i++) {
+    console.log(i);
+} */
+
+// WHILE
+/* var i = 0;
+
+while (i < 10) {
+    console.log(i);
+    i++;
+} */
+
+/* var i = 1;
+
+do {
+    console.log(i);
+    i++;
+} while (i < 10); */
+
+
+// --> FUNÇÕES
+
+function sayHello(name) {
+    console.log("Hello, " + name);
+}
+
+sayHello();
