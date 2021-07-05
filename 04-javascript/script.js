@@ -57,7 +57,7 @@ console.log(typeof sum)
 
 // ARITMÉTICOS
 // adição -> +
-var sumTwoNumbers = 1 + 3;
+/* var sumTwoNumbers = 1 + 3;
 console.log(sumTwoNumbers);
 
 // subtração -> -
@@ -86,13 +86,71 @@ console.log(--num);
 // ATRIBUIÇÃO
 
 // atribuição -> =
+var x = 1;
+var y = 3;
 
 // atribuição de soma -> +=
+console.log(x += y);
 
 // atribuição de subtração -> -=
+console.log(x -= y);
 
 // atribuição de multiplicação -> *=
+console.log(x *= y);
 
 // atribuição de divisão -> /=
+console.log(x /= y);
 
 // atribuição de módulo -> %=
+console.log(x %= y); */
+
+// COMPARAÇÃO
+
+// valor -> ==
+// valor e tipo -> ===
+// diferente de -> !=
+// < ou <= | > ou >=
+
+// LÓGICOS
+
+// E -> &&
+// OU -> ||
+// NOT -> !
+
+
+// --> CONDICIONAIS
+
+// IF
+/* var num = 1;
+num = 5;
+
+if (num === 1) {
+    console.log("num é igual a 1");
+}
+else if (num === 2) {
+    console.log("num é igual a 2");
+}
+else {
+    console.log("num é igual a 5");
+}
+
+// SWITCH CASE
+var mes = "janeiro";
+
+switch (mes) {
+    case "fevereiro":
+        console.log("mes 2");
+        break
+
+    case "março":
+        console.log("mes 3");
+        break
+
+    case "dezembro":
+        console.log("mes 12");
+        break
+
+    default:
+        console.log("nenhum dos casos acima atendido");
+} */
+
