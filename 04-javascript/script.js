@@ -186,8 +186,108 @@ do {
 
 // --> FUNÇÕES
 
-function sayHello(name) {
-    console.log("Hello, " + name);
+/* function sayHello(name, lastName) {
+    console.log('Hello, ' + name + ' ' + lastName);
 }
 
-sayHello();
+sayHello('Matheus', 'Mereb');
+
+function sum(a, b) {
+    return a + b
+}
+
+console.log(sum(40, 60)); */
+
+
+// --> CLASSES
+
+/* class Book {
+    constructor(title, author, pages) {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+    }
+
+    read() {
+        return `Estou lendo ${this.title}`
+    }
+}
+ */
+/* let book = new Book ('Algoritmos para viver', 'Brian', 500);
+let otherBook = new Book ('Um Exu em Nova York', 'Cidinha da Silva', 100);
+
+console.log(book.read); */
+
+/* class ITBook extends Book {
+    constructor (title, author, pages, technology) {
+        super(title, author, pages);
+        this.technology = technology;
+    }
+}
+
+let itBook = new ITBook ('Algoritmos para viver', 'Brian', 500, 'Algoritmos');
+
+console.log(itBook); */
+
+/* class Person {
+    constructor(name){
+        this._name = name;
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    set name(value) {
+        this._name = value;
+    }
+}
+
+let person = new Person('Matheus');
+person.name = 'Mereb';
+console.log(person.name);
+ */
+
+
+// --> EXERCÍCIOS <--
+
+// 1 - 'FizzBuzz':
+/* let resultado = fizzBuzz(15);
+console.log(resultado);
+
+function fizzBuzz(entrada) {
+    if (typeof entrada !== 'number'){
+        return 'Não é um número';
+    }
+    if ((entrada % 3 === 0) && (entrada % 5 === 0)){
+        return 'FizzBuzz';
+    }
+    if (entrada % 3 === 0){
+        return 'Fizz';
+    }    
+    if (entrada % 5 === 0){
+        return 'Buzz';
+    }    
+    
+    return entrada;
+} */
+
+// 2 - Reverse a string:
+/* let newStr = '';
+
+function reverseAString(str) {
+    for (let i = str.length - 1; i >= 0; i--){
+        newStr += str[i];
+        console.log(newStr);
+    }
+}
+
+let resultado = reverseAString('Hello Gama Academy'); */
+
+// 3 - Convert Celsius to Fahrenheit:
+/* function converter(value) {
+    return value * 1.8 + 32
+}
+
+let resultado = converter(40);
+console.log(`O valor em Fahrenheit é ${resultado}F`); */
